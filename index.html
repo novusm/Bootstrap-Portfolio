@@ -11,7 +11,6 @@
 </head>
 <body>
   <!-- Navigation bar -->
-  </nav>
   <nav class="navbar navbar-expand-lg bg-body-tertiary customNav">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">Michael Nove-Togunloju Portfolio</a>
@@ -21,7 +20,7 @@
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav ms-auto justify-content-end">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link active" aria-current="page" href="#skills">Skills</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#about">About Me</a>
@@ -46,21 +45,19 @@
    <!-- Navigation bar end -->
 <!--Jumbotron-->
 <div class="container my-5">
-    <div class="p-5 text-center bg-body-tertiary rounded-3 back">
-      <img src="images/Work Profile.jpg" alt="Your Profile Picture" class="img-fluid rounded-circle" width="100" height="100">
-      <h1 class="text-body-emphasis">Welcome to my Portfolio</h1>
-      <p class="col-lg-8 mx-auto fs-5 text-muted">
-        On this page you'll find the work I completed over the course of the EDX Web Development program with links to work. You can also find out more about myself with contact information if you would like to get in touch. Thank you for visiting.
-      </p>
-      <div class="d-inline-flex gap-2 mb-5">
-        <a href="https://github.com/novusm" class="d-inline-flex custom-btn btn btn-primary btn-lg px-3 justify-content-center rounded-pill" type="button">
-          Visit My Github Here
-          <svg class="bi ms-2" width="24" height="24"><use xlink:href="#arrow-right-short"/></svg>
-        </a>
-      </div>
-    </div> 
-  </div>
-
+  <div class="p-5 text-center bg-body-tertiary rounded-3 backGroundimage">
+    <img src="images/Work Profile.jpg" alt="Your Profile Picture" class="img-fluid rounded-circle" width="100" height="100">
+    <h1 class="text-body-emphasis">Welcome to my Portfolio</h1>
+    <p class="col-lg-8 mx-auto fs-5 text-muted">
+      On this page you'll find the work I completed over the course of the EDX Web Development program with links to work. You can also find out more about myself with contact information if you would like to get in touch. Thank you for visiting.
+    </p>
+    <div class="d-flex justify-content-center align-items-center mb-5">
+      <a href="https://github.com/novusm" class="d-inline-flex custom-btn btn btn-primary btn-lg px-3 justify-content-center align-items-center rounded-pill" type="button">
+        <span class="d-flex align-items: center">Visit My Github</span>
+      </a>
+    </div>
+  </div> 
+</div>
 <!--Jumbotron End-->
 <!--My Work Section -->
 <div class="row row-cols-1 row-cols-md-2 g-4">
@@ -105,7 +102,7 @@
   
 <!-- Skills Section -->
 <p></p>
-  <section class="skills-section">
+  <section class="skills-section" id="skills">
     <h2>Skills I expect to learn</h2>
     <p>In the Front-End Web Development Bootcamp, I will be learning about web design principles which will equip me with the essential skills needed to excel in my future career.</p>
     <ul>
@@ -140,7 +137,7 @@
       <!-- contact -->
       <div class="container">
         <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-          <p class="col-md-4 mb-0 text-body-secondary">Michael's Portfolio/p>
+          <p class="col-md-4 mb-0 text-body-secondary">Michael's Portfolio</p>
       
           <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
             <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"/></svg>
