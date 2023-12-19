@@ -31,9 +31,11 @@ Thank you to the TAs, classmates and Google.
 
 ## Links to project
 Screenshot: ![image](https://github.com/novusm/Bootstrap-Portfolio/assets/126507510/092c2826-8de2-4b7d-85ea-fc73956e31ba)
+Git Hub containing project code URL: https://github.com/novusm/Bootstrap-Portfolio/
 Deployed project: https://novusm.github.io/Bootstrap-Portfolio/
 Previously deployed project: https://novusm.github.io/portfolio-77
 Git hub: https://github.com/novusm
+ReadMe: https://github.com/novusm/Bootstrap-Portfolio/blob/main/README.md
 
 
 
